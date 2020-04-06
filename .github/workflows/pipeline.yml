@@ -16,7 +16,7 @@ jobs:
       - name: Make gradlew executable
         run:  chmod +x gradlew
       - name: Start mySQL Database
-      run : |
+        run : |
         sudo /etc/init.d/mysql start
       - name: Create test database
         run: |
