@@ -25,9 +25,8 @@ buildscript {
 
     dependencies {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
-        classpath "mysql:mysql-connector-java:$mysqlVersion"
+        classpath "mysql:mysql-connector-java:$mysqlVersion"      
         
-        implementation 'org.springframework.boot:spring-boot-starter-actuator'
     }
 }
 
@@ -53,6 +52,8 @@ subprojects {
         testCompile "junit:junit:$junitVersion"
         testCompile "org.mockito:mockito-core:$mockitoVersion"
         testCompile "org.assertj:assertj-core:$assertJVersion"
+        
+        implementation 'org.springframework.boot:spring-boot-starter-actuator'
     }
 
     test {
