@@ -2,4 +2,6 @@ apply from: "$projectDir/../server.gradle"
 
 dependencies {
     compile project(":components:backlog")
+    
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 }

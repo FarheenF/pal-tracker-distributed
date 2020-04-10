@@ -2,4 +2,6 @@ apply from: "$projectDir/../server.gradle"
 
 dependencies {
     compile project(":components:allocations")
+    
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 }

@@ -53,7 +53,7 @@ subprojects {
         testCompile "org.mockito:mockito-core:$mockitoVersion"
         testCompile "org.assertj:assertj-core:$assertJVersion"
         
-        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+        
     }
 
     test {
