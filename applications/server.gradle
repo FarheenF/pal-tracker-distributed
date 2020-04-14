@@ -20,4 +20,7 @@ dependencies {
 	compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
 
     testCompile project(":components:test-support")
+    
+    compile "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$springSecurityOAuthAutoconfigVersion"
+	compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:$springCloudSsoVersion"
 }
