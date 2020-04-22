@@ -6,8 +6,3 @@ dependencies {
     compile "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$springSecurityOAuthAutoconfigVersion"
 }
 
-bootRun.environment([
-    "APPLICATION_OAUTH_ENABLED": true,
-    "SECURITY_OAUTH2_CLIENT_CLIENT_ID": "tracker-client",
-    "SECURITY_OAUTH2_CLIENT_CLIENT_SECRET": "supersecret"
-])
